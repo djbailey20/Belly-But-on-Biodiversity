@@ -37,6 +37,7 @@ const graphBar = (x, y, labels, name) => {
     x: x,
     y: y.map(d => "OTU " + d),
     type: "bar",
+    width: y.length * 0.08,
     orientation: "h",
     text: labels
   };
